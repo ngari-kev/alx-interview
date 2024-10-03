@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module to generate Pacal's triangle"""
+
 
 def pascal_triangle(n):
     """
@@ -6,7 +8,7 @@ def pascal_triangle(n):
     of size n.
     """
     result = []
-    
+
     for i in range(n):
         row = [1] * (i + 1)
         for j in range(1, i):
